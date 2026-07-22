@@ -4,8 +4,6 @@ title: Road to Tokyo
 permalink: /road-to-tokyo/
 ---
 
-<h1 class="page-title">Road to Tokyo</h1>
-
 <div class="prose">
 
 In April 2025, we quit our jobs, sold all our stuff, bought a motorcycle, and rode it from Jersey (UK) to Japan. Over 6 months, we travelled through 25 countries and over 35,000km.

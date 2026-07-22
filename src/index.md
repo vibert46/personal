@@ -4,14 +4,14 @@ title: About
 permalink: /
 ---
 
-# About
+I am postgraduate research student in the Graduate School of Letters at Kyoto
+University in Japan. My interests are in philosophy and metaphysics —
+specifically the fundamental nature of consciousness and its connection to
+quantum mechanics.
 
-Replace this paragraph with a short introduction — who you are, what you do,
-and what this site is for. Two or three sentences is usually enough.
+Previously I studied maths and worked in the tech industry before riding a
+motorcycle from UK to Japan, which I wrote about in
+[Road to Tokyo](/road-to-tokyo/).
 
-You can add a second paragraph here for more detail: background, interests,
-or a line about the "Road to Tokyo" project if you'd like to point people
-toward it from here.
-
-Feel free to add a contact line too, for example an
-[email address](mailto:you@example.com).
+I also run [The Magenta](https://themagenta.org) — an online magazine focused
+on showcasing human creativity.

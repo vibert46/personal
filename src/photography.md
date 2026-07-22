@@ -11,8 +11,6 @@ photos:
     caption: ""
 ---
 
-<h1 class="page-title">Photography</h1>
-
 <div class="photo-list">
   {% for photo in photos %}
   <div class="photo-item">

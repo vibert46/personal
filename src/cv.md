@@ -4,8 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-<h1 class="page-title">CV</h1>
-
 <div class="cv-section">
   <h2>Interests</h2>
   <div class="cv-block">
