@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "luxon": "^3.7.2"
+    "luxon": "^3.7.2",
+    "wrangler": "^4.113.0"
   }
 }
