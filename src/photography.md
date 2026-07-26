@@ -26,7 +26,7 @@ photos:
 <div class="photo-list">
   {% for photo in photos %}
   <div class="photo-item">
-    <img src="{{ photo.src }}" alt="{{ photo.caption | default('Photograph') }}" loading="lazy">
+    <img src="{{ photo.src }}" alt="{{ photo.caption | default('Photograph') }}" width="2400" height="1600" loading="lazy" decoding="async">
     {% if photo.caption %}<div class="photo-caption">{{ photo.caption }}</div>{% endif %}
   </div>
   {% endfor %}
