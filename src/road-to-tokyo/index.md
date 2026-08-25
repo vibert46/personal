@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Road to Tokyo
-permalink: /road-to-tokyo/
+permalink: /
 ---
 
 <div class="prose">

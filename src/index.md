@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: About
-permalink: /
+permalink: false
 ---
 
 I am postgraduate research student in the Graduate School of Letters at Kyoto

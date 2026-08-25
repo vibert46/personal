@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: CV
-permalink: /cv/
+permalink: false
 ---
 
 <div class="cv-section">

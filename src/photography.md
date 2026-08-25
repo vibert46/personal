@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Photography
-permalink: /photography/
+permalink: false
 photos:
   - src: /images/photography/0F649D61-908A-406B-926A-32EFCFB993C8.jpeg
     caption: ""

@@ -1,6 +1,3 @@
 [
-  { "label": "About", "url": "/" },
-  { "label": "CV", "url": "/cv/" },
-  { "label": "Photography", "url": "/photography/" },
-  { "label": "Road to Tokyo", "url": "/road-to-tokyo/" }
+  { "label": "Road to Tokyo", "url": "/" }
 ]
