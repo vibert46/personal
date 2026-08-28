@@ -1,3 +1,5 @@
 [
-  { "label": "Road to Tokyo", "url": "/" }
+  { "label": "About", "url": "/" },
+  { "label": "Contact", "url": "/contact/" },
+  { "label": "Road to Tokyo", "url": "/road-to-tokyo/" }
 ]
