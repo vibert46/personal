@@ -1,5 +1,6 @@
 [
   { "label": "About", "url": "/" },
   { "label": "Contact", "url": "/contact/" },
+  { "label": "Animations", "url": "/animations/" },
   { "label": "Road to Tokyo", "url": "/road-to-tokyo/" }
 ]
