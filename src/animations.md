@@ -27,7 +27,11 @@ permalink: /animations/
       context.putImageData(image, 0, 0);
     }
 
-    randomizePixels();
-    window.setInterval(randomizePixels, 1000);
+    function animate() {
+      randomizePixels();
+      window.requestAnimationFrame(animate);
+    }
+
+    window.requestAnimationFrame(animate);
   })();
 </script>
