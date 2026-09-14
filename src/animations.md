@@ -4,18 +4,15 @@ title: Animations
 permalink: /animations/
 ---
 
-<div class="animation-stage" aria-label="Two color animations">
-  <div class="animation-circle animation-circle--binary" id="binary-circle" role="img" aria-label="A circle alternating between black and white"></div>
+<div class="animation-stage" aria-label="Random color animation">
   <canvas class="animation-circle animation-circle--pixels" id="pixel-circle" width="72" height="72" role="img" aria-label="A circle of pixels changing to random colors"></canvas>
 </div>
 
 <script>
   (() => {
-    const binaryCircle = document.getElementById("binary-circle");
     const pixelCircle = document.getElementById("pixel-circle");
     const context = pixelCircle.getContext("2d", { alpha: false });
     const image = context.createImageData(pixelCircle.width, pixelCircle.height);
-    let isWhite = false;
 
     function randomizePixels() {
       const pixels = image.data;
@@ -30,13 +27,7 @@ permalink: /animations/
       context.putImageData(image, 0, 0);
     }
 
-    function updateAnimations() {
-      isWhite = !isWhite;
-      binaryCircle.style.backgroundColor = isWhite ? "#fff" : "#000";
-      randomizePixels();
-    }
-
     randomizePixels();
-    window.setInterval(updateAnimations, 1000);
+    window.setInterval(randomizePixels, 1000);
   })();
 </script>
